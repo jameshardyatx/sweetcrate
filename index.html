@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Home - SweetCrate</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.css" rel="stylesheet">
+
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+    <!-- Template styles -->
+    <style>
+        /* TEMPLATE STYLES */
+
+        html,
+        body,
+        .view {
+            height: 100%;
+        }
+        /* Navigation*/
+
+        .navbar {
+            background-color: transparent;
+        }
+
+        .scrolling-navbar {
+            -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+            -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+            transition: background .5s ease-in-out, padding .5s ease-in-out;
+        }
+
+        .top-nav-collapse {
+            background-color: #1C2331;
+        }
+
+        footer.page-footer {
+            background-color: #1C2331;
+            margin-top: 2rem;
+        }
+
+        @media only screen and (max-width: 768px) {
+            .navbar {
+                background-color: #1C2331;
+            }
+        }
+        /*Call to action*/
+
+        .flex-center {
+            color: #fff;
+        }
+
+        .view {
+            background: url("img/candy.jpg")no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            background-color: #fff;
+        }
+        /*Contact section*/
+
+        #contact .fa {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: #1C2331;
+        }
+        .bgvideo {
+          display: none;
+        }
+        .above {
+          z-index: 100;
+          position: relative;
+          color: #333;
+          background-color: #fff;
+          font-family: "Big John";
+          line-height: 2rem;
+        }
+        @media (min-width: 900px) {
+        .bgvideo {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          min-height: 99%;
+          min-width: 99%;
+          height: auto;
+          width: auto;
+          -ms-transform: translateX(-50%) translateY(-50%);
+          -moz-transform: translateX(-50%) translateY(-50%);
+          -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+          z-index: 0;
+          display: inline-block;
+          ;
+        }
+        .above {
+          background-color: transparent;
+        }
+        }
+
+    </style>
+</head>
+
+<body>
+
+
+<header>
+    <!--Navbar-->
+    <nav class="navbar navbar-light navbar-fixed-top orange lighten-4">
+
+        <!-- Collapse button-->
+        <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#collapseEx">
+            <i class="fa fa-bars"></i>
+        </button>
+
+        <div class="container">
+
+            <!--Collapse content-->
+            <div class="collapse navbar-toggleable-xs" id="collapseEx">
+                <!--Navbar Brand-->
+                    <a class="navbar-brand" href="http://jameshardy.design/sweetcrate" target="_blank" ><img src="img/sweetcratethick.svg" class="sweetcrate" alt="Sweetcrate Logo"></a>
+                    <!--Links-->
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="packages">Packages</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="products">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="merchandise">Merchandise</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="testimonials">Testimonials</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about">About Us</a>
+                        </li>
+                        <div class="account">
+                        <li class="nav-item"><a class="nav-link mycart" href="#"><small id="carttotal" class="cyan white-text animated">0</small><img src="img/cart.svg" class="" alt="Cart"></a></li>
+                        <li class="nav-item"><a class="nav-link profile myprofile" href="#"><img src="img/profile.svg" class="" alt="Profile"></a></li>
+                        <li class="nav-item"><a class="nav-link logout" href="#"><img src="img/logout.svg" class="logout" alt=""></a></li>
+                        </div>
+                    </ul>
+            </div>
+            <!--/.Collapse content-->
+
+        </div>
+
+    </nav>
+    <!--/.Navbar-->
+    </header>
+
+    <!--Mask-->
+    <div class="view">
+        <div class="full-bg-img flex-center">
+            <ul>
+                <li>
+                    <h1 class="h1-responsive wow fadeInDown above" data-wow-delay="0.2s">Welcome to Sweetcrate</h1></li>
+                <li>
+                    <p class="wow fadeInDown above">&nbsp;Sweets delivered to your door, monthly&nbsp;</p>
+                </li>
+                <li>
+                    <a href="#packages" class="btn btn-default btn-lg wow fadeInRight cyan lighten-4 scroll" data-wow-delay="0.2s">Learn more</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--/.Mask-->
+<video src="img/candyrain.mp4" autoplay loop muted class="bgvideo"></video>
+    <!-- Main container-->
+    <div class="container">
+
+        <div class="row">
+          <div class="divider-new">
+              <h2 class="h2-responsive wow bounceIn about" id="packages">Our Packages</h2>
+          </div>
+
+          <!--Section: Packages-->
+         <section id="about" class="text-xs-center wow bounceIn" data-wow-delay="0.2s">
+
+        <!-- Column 1 -->
+          <div class="col-md-4">
+            <!--Card-->
+            <div class="card">
+
+                <!--Card image-->
+                <div class=" overlay hm-white-slight">
+                    <img src="img/sweetbox.svg" class="img-fluid" alt="Sweetbox Package">
+                    <a href="#!">
+                        <div class="mask"></div>
+                    </a>
+                </div>
+                <!--/.Card image-->
+
+                <!--Card content-->
+                <div class="card-block">
+                    <!--Title-->
+                    <h4 class="card-title">The SweetBox</h4>
+                    <!--Text-->
+                    <p class="card-text">For the uninitiated to the awesomeness that is SweetCrate. Great for a single person or to just try us out!</p>
+                    <h3 class="cyan-text">$4.99</h3>
+                    <div class="read-more">
+                        <a href="packages/index.html#box" class="btn btn-primary cyan">Read more</a>
+                    </div>
+                </div>
+                <!--/.Card content-->
+
+            </div>
+            <!--/.Card-->
+          </div>
+          <!-- /.Column 1 -->
+          <!-- Column 2 -->
+            <div class="col-md-4">
+              <!--Card-->
+              <div class="card">
+
+                  <!--Card image-->
+                  <div class="overlay hm-white-slight">
+                      <img src="img/sweetcrate.svg" class="img-fluid" alt="Sweetcrate Package">
+                      <a href="#!">
+                          <div class="mask"></div>
+                      </a>
+                  </div>
+                  <!--/.Card image-->
+
+                  <!--Card content-->
+                  <div class="card-block">
+                      <!--Title-->
+                      <h4 class="card-title">The SweetCrate</h4>
+                      <!--Text-->
+                      <p class="card-text">The original and the greatest. Share it with your friends or keep it for yourself, this box will last you the whole month!</p>
+                      <h3 class="cyan-text">$9.99</h3>
+                      <div class="read-more">
+                          <a href="packages/index.html#crate" class="btn btn-primary cyan">Read more</a>
+                      </div>
+                  </div>
+                  <!--/.Card content-->
+
+              </div>
+              <!--/.Card-->
+            </div>
+            <!-- /.Column 2 -->
+            <!-- Column 3 -->
+              <div class="col-md-4">
+                <!--Card-->
+                <div class="card">
+
+                    <!--Card image-->
+                    <div class="overlay hm-white-slight">
+                        <img src="img/sweetpallet.svg" class="img-fluid" alt="Sweetpallet Package">
+                        <a href="#!">
+                            <div class="mask"></div>
+                        </a>
+                    </div>
+                    <!--/.Card image-->
+
+                    <!--Card content-->
+                    <div class="card-block">
+                        <!--Title-->
+                        <h4 class="card-title">The SweetPallet</h4>
+                        <!--Text-->
+                        <p class="card-text">For the true fans of SweetCrate, or moms and dads looking to treat their kids, our biggest package is bound to please!</p>
+                        <h3 class="cyan-text">$19.99</h3>
+                        <div class="read-more">
+                            <a href="packages/index.html#pallet" class="btn btn-primary cyan">Read more</a>
+                        </div>
+                    </div>
+                    <!--/.Card content-->
+
+                </div>
+                <!--/.Card-->
+              </div>
+              <!-- /.Column 3 -->
+          </section>
+        </div>
+        <!--Section: Packages-->
+        <div class="divider-new">
+            <h2 class="h2-responsive wow fadeInDown">The Process</h2>
+        </div>
+
+        <!--Section: The Process-->
+        <section id="process">
+
+            <div class="row">
+
+                <!--First columnn-->
+                <div class="col-md-3">
+                    <!--Card-->
+                    <div class="card wow fadeInUp">
+
+                        <!--Card image-->
+                        <div class="overlay hm-white-slight">
+                            <img src="img/signup-04.svg" class="img-fluid" alt="Sign Up">
+                            <a>
+                                <div class="mask"></div>
+                            </a>
+                        </div>
+                        <!--/.Card image-->
+
+                        <!--Card content-->
+                        <div class="card-block text-xs-center">
+                            <!--Title-->
+                            <h4 class="card-title">Sign Up</h4>
+                            <hr>
+                            <!--Text-->
+                            <p class="card-text">Create your account, and include your information so we can send you your package faster. It's fast and free!</p>
+                        </div>
+                        <!--/.Card content-->
+
+                    </div>
+                    <!--/.Card-->
+                </div>
+                <!--First columnn-->
+
+                <!--Second columnn-->
+                <div class="col-md-3">
+                    <!--Card-->
+                    <div class="card wow fadeInUp" data-wow-delay="0.2s">
+
+                        <!--Card image-->
+                        <div class="overlay hm-white-slight">
+                            <img src="img/order-05.svg" class="img-fluid" alt="Order">
+                            <a>
+                                <div class="mask"></div>
+                            </a>
+                        </div>
+                        <!--/.Card image-->
+
+                        <!--Card content-->
+                        <div class="card-block text-xs-center">
+                            <!--Title-->
+                            <h4 class="card-title">Order</h4>
+                            <hr>
+                            <!--Text-->
+                            <p class="card-text">Select your package and subscription time, anywhere from 1 month to 12 months, and order.</p>
+                        </div>
+                        <!--/.Card content-->
+
+                    </div>
+                    <!--/.Card-->
+                </div>
+                <!--Second columnn-->
+
+                <!--Third columnn-->
+                <div class="col-md-3">
+                    <!--Card-->
+                    <div class="card wow fadeInUp" data-wow-delay="0.4s">
+
+                        <!--Card image-->
+                        <div class="overlay hm-white-slight">
+                            <img src="img/deliver-06.svg" class="img-fluid" alt="Deliver">
+                            <a>
+                                <div class="mask"></div>
+                            </a>
+                        </div>
+                        <!--/.Card image-->
+
+                        <!--Card content-->
+                        <div class="card-block text-xs-center">
+                            <!--Title-->
+                            <h4 class="card-title">Wait for Delivery</h4>
+                            <hr>
+                            <!--Text-->
+                            <p class="card-text">Let our people do all the work. Wait patietly 3-5 days for your delicious candy to arrive.</p>
+                        </div>
+                        <!--/.Card content-->
+
+                    </div>
+                    <!--/.Card-->
+                </div>
+                <!--Third columnn-->
+
+                <!--First columnn-->
+                <div class="col-md-3">
+                    <!--Card-->
+                    <div class="card wow fadeInUp" data-wow-delay="0.6s">
+
+                        <!--Card image-->
+                        <div class="overlay hm-white-slight">
+                            <img src="img/receive-07.svg" class="img-fluid" alt="Receive">
+                            <a>
+                                <div class="mask"></div>
+                            </a>
+                        </div>
+                        <!--/.Card image-->
+
+                        <!--Card content-->
+                        <div class="card-block text-xs-center">
+                            <!--Title-->
+                            <h4 class="card-title">Pick Up</h4>
+                            <hr>
+                            <!--Text-->
+                            <p class="card-text">Go outside and pick your package up, open, then eat!</p>
+                        </div>
+                        <!--/.Card content-->
+
+                    </div>
+                    <!--/.Card-->
+                </div>
+                <!--First columnn-->
+            </div>
+
+        </section>
+        <!--/Section: Process-->
+
+        <div class="divider-new">
+            <h2 class="h2-responsive wow fadeInUp">Need More?</h2>
+        </div>
+
+        <!--Section: More-->
+        <section id="more">
+          <h5>Looking for something else from SweetCrate?</h5>
+          <a href="merchandise"><p class="btn btn-primary orange">Check out our merchandise<br> for SweetCrate swag</p></a>
+        </section>
+        <!--Section: More-->
+
+    </div>
+    <!--/ Main container-->
+
+
+
+    <!--Footer-->
+    <footer class="page-footer center-on-small-only orange lighten-4">
+
+        <!--Footer Links-->
+        <div class="container-fluid">
+            <div class="row">
+
+                <!--First column-->
+                <div class="col-md-3 offset-md-1">
+                    <h5 class="title">ABOUT SweetCrate</h5>
+                    <p>SweetCrate is a project created by James Hardy for his Responsive Deisgn II class.</p>
+
+                    <p>SweetCrate is a fake company made up for the sake of this project. I thought it would be fun to make a candy-themed website when I thought of the idea
+                    around Halloween. I actually made it for my final which was in December, so it has Christmas theming. This site utilizes Bootstrap 3, using the Material Design Bootstrap theme.</p>
+
+                    <p>All graphics are either public domain or made by me.</p>
+                </div>
+                <!--/.First column-->
+
+                <hr class="hidden-md-up">
+
+                <!--Second column-->
+                <div class="col-md-2 offset-md-1">
+                    <h5 class="title">Site Map</h5>
+                    <ul>
+                        <li class="active"><a href="#!">Home</a></li>
+                        <li><a href="packages">Packages</a></li>
+                        <li><a href="products">Products</a></li>
+                        <li><a href="merchandise">Merchandise</a></li>
+                        <li><a href="testimonials">Testimonials</a></li>
+                        <li><a href="about">About Us</a></li>
+                    </ul>
+                </div>
+                <!--/.Second column-->
+
+                <hr class="hidden-md-up">
+
+                <!--Third column-->
+                <div class="col-md-2">
+                    <h5 class="title">Contact Me</h5>
+                    <ul class="bigicons">
+                        <li><a href="https://twitter.com/Jimmehwat" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/james-hardy-928375115" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                        <li><a href="https://github.com/jameshardyatx" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a></li>
+                        <li><a href="mailto:jimmehmail@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+                <!--/.Third column-->
+
+                <hr class="hidden-md-up">
+
+            </div>
+        </div>
+        <!--/.Footer Links-->
+
+        <hr>
+
+        <!--Copyright-->
+        <div class="footer-copyright">
+            <div class="container-fluid">
+                © 2016 Copyright: <a href="http://www.jameshardy.design"> James Hardy</a>
+
+            </div>
+        </div>
+        <!--/.Copyright-->
+
+    </footer>
+    <!--/.Footer-->
+
+
+    <!-- SCRIPTS -->
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/tether.min.js"></script>
+
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+
+    <!-- Animations init-->
+    <script>
+        new WOW().init();
+    </script>
+
+
+</body>
+
+</html>

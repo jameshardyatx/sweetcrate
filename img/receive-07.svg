@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 488.186 325.457" style="enable-background:new 0 0 488.186 325.457;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;stroke:#00BCD4;stroke-width:4.0613;stroke-miterlimit:10;}
+	.st1{fill:url(#);}
+	.st2{fill:#FFCDD2;}
+	.st3{fill:#F44336;}
+	.st4{fill:#FFFFFF;stroke:#00BCD4;stroke-width:3.5009;stroke-miterlimit:10;}
+	.st5{fill:#FFFFFF;stroke:#00BCD4;stroke-width:3;stroke-miterlimit:10;}
+	.st6{fill:none;stroke:#00BCD4;stroke-width:3;stroke-miterlimit:10;}
+	.st7{fill:#FFFFFF;stroke:#00BCD4;stroke-width:4;stroke-miterlimit:10;}
+	.st8{fill:#00BCD4;}
+	.st9{fill:none;stroke:#00BCD4;stroke-width:2;stroke-miterlimit:10;}
+	.st10{fill:#FFFFFF;stroke:#00BCD4;stroke-width:2.8287;stroke-miterlimit:10;}
+	.st11{fill:#FFFFFF;stroke:#00BCD4;stroke-width:2.4239;stroke-miterlimit:10;}
+	.st12{fill:none;stroke:#00BCD4;stroke-width:2.4239;stroke-miterlimit:10;}
+	.st13{fill:#FFE0B2;}
+	.st14{fill:#FFFFFF;stroke:#00BCD4;stroke-width:1.3672;stroke-miterlimit:10;}
+	.st15{fill:#FFFFFF;stroke:#00BCD4;stroke-width:1.1715;stroke-miterlimit:10;}
+	.st16{fill:none;stroke:#00BCD4;stroke-width:1.1715;stroke-miterlimit:10;}
+	.st17{fill:#FFFFFF;stroke:#00BCD4;stroke-miterlimit:10;}
+</style>
+<g id="Layer_2">
+</g>
+<g id="Layer_1">
+	<g>
+		<rect x="168.918" y="12.25" class="st0" width="149.603" height="241.75"/>
+		<g>
+			<g>
+				<rect x="190.735" y="55.552" class="st0" width="36.859" height="93.173"/>
+				<rect x="197.782" y="73.364" class="st0" width="22.766" height="57.548"/>
+			</g>
+			<g>
+				<rect x="259.845" y="58.504" class="st0" width="36.859" height="87.268"/>
+				<rect x="266.892" y="75.188" class="st0" width="22.766" height="53.901"/>
+			</g>
+			<g>
+				<rect x="190.735" y="163.191" class="st0" width="36.859" height="47.507"/>
+				<rect x="197.782" y="172.274" class="st0" width="22.766" height="29.343"/>
+			</g>
+			<g>
+				<rect x="259.845" y="163.191" class="st0" width="36.859" height="47.507"/>
+				<rect x="266.892" y="172.274" class="st0" width="22.766" height="29.343"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<rect x="110.135" y="175" class="st14" width="82.333" height="82.333"/>
+		<rect x="116.025" y="180.89" class="st15" width="70.553" height="70.553"/>
+		<g>
+			<line class="st16" x1="134.639" y1="180.89" x2="134.639" y2="251.443"/>
+			<line class="st16" x1="167.963" y1="180.89" x2="167.963" y2="251.443"/>
+		</g>
+		<polygon class="st17" points="112.901,245.52 180.324,177.626 189.5,177.506 189.5,186.638 121.794,254.5 113.042,254.5 		"/>
+		<polygon class="st8" points="117.578,248.709 118.758,249.89 118.758,251.559 117.578,252.739 115.909,252.739 114.729,251.559 
+			114.729,249.89 115.909,248.709 		"/>
+		<polygon class="st8" points="186.729,179.559 187.909,180.739 187.909,182.408 186.729,183.588 185.06,183.588 183.88,182.408 
+			183.88,180.739 185.06,179.559 		"/>
+		<polygon class="st8" points="114.126,176.435 115.306,177.615 115.306,179.284 114.126,180.464 112.457,180.464 111.276,179.284 
+			111.276,177.615 112.457,176.435 		"/>
+		<polygon class="st8" points="190.016,252.032 191.196,253.212 191.196,254.881 190.016,256.061 188.347,256.061 187.166,254.881 
+			187.166,253.212 188.347,252.032 		"/>
+	</g>
+</g>
+</svg>
